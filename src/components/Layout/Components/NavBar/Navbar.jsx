@@ -5,9 +5,9 @@ import DarkmodeBtn from './Components/DarkmodeBtn';
 
 function Navbar() {
   return (
-    <div className='w-full h-16 dark:bg-blue-dark bg-whitee shadow dark:shadow-none flex justify-between items-center px-3'>
+    <div className='w-full h-16 dark:bg-primary-darky dark:shadow-none flex justify-between items-center px-4'>
 
-      <div className='w-11'>
+      <div className='w-7'>
         <img src={Logo} alt="Logo" />
       </div>
 
@@ -15,9 +15,9 @@ function Navbar() {
         <div>
           <DarkmodeBtn />
         </div>
-        <div className='w-11'>
+        {/* <div className='w-10'>
           <img src={Profile} alt="profile" className='rounded-full' />
-        </div>
+        </div> */}
       </div>
 
     </div>
